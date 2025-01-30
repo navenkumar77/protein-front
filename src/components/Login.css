@@ -1,0 +1,165 @@
+/* Login.css */
+body {
+    font-family: sans-serif; /* Use a generic sans-serif font */
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Align header and content vertically */
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; /* Adjust padding as needed */
+    border-bottom: 1px solid #eee; /* Add a bottom border */
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #008000; /* Darker green, adjust as needed */
+}
+
+.nav {
+    display: flex;
+    gap: 20px; /* Spacing between nav items */
+}
+
+.nav a, .account-cart a {
+    text-decoration: none;
+    color: #333; /* Dark gray text */
+    font-size: 14px;
+}
+
+.account-cart {
+    display: flex;
+    gap: 20px;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Allow content to take up available space */
+    padding: 50px;
+    background-color: #fff;
+}
+
+.login-container {
+    width: 500px; /* Increased width */
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    border: 1px solid #eee;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.breadcrumb a {
+    color: #008000;
+    text-decoration: none;
+}
+
+.login-content {
+    text-align: left;
+}
+
+.login-title {
+    color: #008000;
+    margin-bottom: 30px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.forgot-password-link {
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+    color: #008000;
+    text-decoration: none;
+}
+
+.login-button {
+    background-color: #008000;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.login-footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+.login-footer a {
+    color: #008000;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.rewards-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #90ee90;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Login.css */
+.error-message {
+    background-color: #f8f9fa; /* Light grey background */
+    border: 1px solid #ccc;    /* Subtle border */
+    color: #dc3545;            /* Red text color */
+    padding: 10px 15px;        /* Padding for spacing */
+    border-radius: 5px;        /* Rounded corners */
+    margin-bottom: 20px;       /* Space below the error */
+    font-size: 0.9rem;         /* Slightly smaller font size */
+    text-align: center;        /* Center align the text */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
