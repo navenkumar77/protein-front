@@ -36,7 +36,7 @@ function Header() {
               onMouseEnter={() => setIsAccountHovered(true)}
               onMouseLeave={() => setIsAccountHovered(false)}
             >
-              <Nav.Link href="#account" className="fw-bold text-dark">
+              <Nav.Link href="/account" className="fw-bold text-dark">
                 Account
               </Nav.Link>
               {isAccountHovered && (
